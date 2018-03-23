@@ -29,6 +29,12 @@ Component({
         isShow: !this.data.isShow
       })
     },
+    //展示弹框
+    showDialog() {
+      this.setData({
+        isShow: !this.data.isShow
+      })
+    },
     _cancelEvent() {
       this.triggerEvent('cancelEvent');
     },

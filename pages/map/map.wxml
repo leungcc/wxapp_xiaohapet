@@ -2,6 +2,7 @@
   Page Map
   <view class='container'>
     <dialog
+      id="dialog"
       title="我是标题"
       content="g哦那恭喜你学会了小程序组件"
       cancelText="知道了"
@@ -11,5 +12,5 @@
     >
     </dialog>
   </view>
-  <button>show dialog</button>
+  <button bindtap="showDialog">show dialog</button>
 </view>
