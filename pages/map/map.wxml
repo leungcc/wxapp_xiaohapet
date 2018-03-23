@@ -1,0 +1,15 @@
+<view>
+  Page Map
+  <view class='container'>
+    <dialog
+      title="我是标题"
+      content="g哦那恭喜你学会了小程序组件"
+      cancelText="知道了"
+      confirm="谢谢你"
+      bind:cancelEvent="_cancelEvent"  
+      bind:confirmEvent="_confirmEvent"
+    >
+    </dialog>
+  </view>
+  <button>show dialog</button>
+</view>

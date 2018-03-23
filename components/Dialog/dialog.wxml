@@ -1,0 +1,12 @@
+<!-- 弹窗组件模版 -->
+<view class='wx_dialog_container' hidden="{{!isShow}}">
+  <view class='wx-mask'></view>
+  <view class='wx-dialog'>
+    <view class='wx-dialog-title'>{{ title }}</view>
+    <view class='wx-dialog-content'>{{ content }}</view>
+    <view class='wx-dialog-footer'>
+      <view class='wx-dialog-btn' catchtap='_cancelEvent'>{{ cancelText }}</view>
+      <view class='wx-dialog-btn' catchtap='_confirmText'>{{ confirmText }}</view>
+    </view>
+  </view>
+</view>
